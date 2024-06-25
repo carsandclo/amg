@@ -80,6 +80,7 @@ import Asset15SvgIcon from "./icons/PlasmicIcon__Asset15Svg"; // plasmic-import:
 import Asset17SvgIcon from "./icons/PlasmicIcon__Asset17Svg"; // plasmic-import: SXjGg-SVFrGm/icon
 import Asset16SvgIcon from "./icons/PlasmicIcon__Asset16Svg"; // plasmic-import: jrHOvkK-XM6e/icon
 import Icon2Icon from "./icons/PlasmicIcon__Icon2"; // plasmic-import: Z5SzEe0I5ZF-/icon
+import Asset18SvgIcon from "./icons/PlasmicIcon__Asset18Svg"; // plasmic-import: OIFPFB2pQpzB/icon
 
 createPlasmicElementProxy;
 
@@ -98,7 +99,7 @@ export type PlasmicProducts__OverridesType = {
   citadel?: Flex__<"div">;
   citadel2?: Flex__<"div">;
   citadel3?: Flex__<"div">;
-  footer?: Flex__<"div">;
+  footer2?: Flex__<"div">;
 };
 
 export interface DefaultProductsProps {}
@@ -843,16 +844,16 @@ function PlasmicProducts__RenderFunc(props: {
           </Stack__>
           <Stack__
             as={"div"}
-            data-plasmic-name={"footer"}
-            data-plasmic-override={overrides.footer}
+            data-plasmic-name={"footer2"}
+            data-plasmic-override={overrides.footer2}
             hasGap={true}
-            className={classNames(projectcss.all, sty.footer)}
+            className={classNames(projectcss.all, sty.footer2)}
           >
             <PlasmicLink__
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.link__xXeMt
+                sty.link__s9QoR
               )}
               component={Link}
               href={`/`}
@@ -860,7 +861,7 @@ function PlasmicProducts__RenderFunc(props: {
             >
               <PlasmicImg__
                 alt={""}
-                className={classNames(sty.img__n9ONi)}
+                className={classNames(sty.img___3WpbL)}
                 displayHeight={"auto"}
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -880,24 +881,24 @@ function PlasmicProducts__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__oxS3
+                sty.text__tLa2Y
               )}
             >
               {
                 "PT Mulia Grand Manufacture was established in August 2015 in Boboh \u2013 Menganti area. Our company is specialized in the production of corrugated cardboard and cardboard boxes."
               }
             </div>
-            <div className={classNames(projectcss.all, sty.freeBox__w0Pof)}>
+            <div className={classNames(projectcss.all, sty.freeBox__mleYs)}>
               <Stack__
                 as={"div"}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__xm38W)}
+                className={classNames(projectcss.all, sty.freeBox__fI5F)}
               >
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text___2T6Gj
+                    sty.text__gNCm
                   )}
                 >
                   {"Company"}
@@ -906,7 +907,7 @@ function PlasmicProducts__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__hyFpV
+                    sty.text__mrecA
                   )}
                 >
                   {"Home"}
@@ -915,7 +916,7 @@ function PlasmicProducts__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text___1WxJ9
+                    sty.text__axO88
                   )}
                 >
                   {"Our Business"}
@@ -924,7 +925,7 @@ function PlasmicProducts__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__r0PkM
+                    sty.text__iom3Q
                   )}
                 >
                   {"About Us"}
@@ -933,13 +934,13 @@ function PlasmicProducts__RenderFunc(props: {
               <Stack__
                 as={"div"}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__wIuhz)}
+                className={classNames(projectcss.all, sty.freeBox__bYpI5)}
               >
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__aLuMr
+                    sty.text__pNjBa
                   )}
                 >
                   {"Join With Us"}
@@ -948,7 +949,7 @@ function PlasmicProducts__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__ayqO5
+                    sty.text___6JTju
                   )}
                 >
                   {"Carrer"}
@@ -958,13 +959,13 @@ function PlasmicProducts__RenderFunc(props: {
             <Stack__
               as={"div"}
               hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__clAp5)}
+              className={classNames(projectcss.all, sty.freeBox__reaoD)}
             >
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__vPN1
+                  sty.text___3RfH4
                 )}
               >
                 {"Quick Contact"}
@@ -973,7 +974,7 @@ function PlasmicProducts__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__xmdIm
+                  sty.text__o573N
                 )}
               >
                 {
@@ -981,7 +982,7 @@ function PlasmicProducts__RenderFunc(props: {
                 }
               </div>
               <Button
-                className={classNames("__wab_instance", sty.button__lo9NJ)}
+                className={classNames("__wab_instance", sty.button__ekEsZ)}
                 color={"sand"}
                 shape={"rounded"}
               >
@@ -991,22 +992,33 @@ function PlasmicProducts__RenderFunc(props: {
             <Stack__
               as={"div"}
               hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__vVyXw)}
+              className={classNames(projectcss.all, sty.freeBox__kmwSl)}
             >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__jFQt
-                )}
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__syXpZ)}
               >
-                {"031 7997 0889"}
-              </div>
+                <Asset18SvgIcon
+                  className={classNames(projectcss.all, sty.svg__lQKsa)}
+                  role={"img"}
+                />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__fwmAl
+                  )}
+                >
+                  {"031 7997 0889"}
+                </div>
+              </Stack__>
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___9Y5IU
+                  sty.text__jUmac
                 )}
               >
                 {
@@ -1018,7 +1030,7 @@ function PlasmicProducts__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__axKvj
+                sty.text__kcZEl
               )}
             >
               {"Copyright 2022 \u00a9 PT Artaniaga Megah Gemilang"}
@@ -1031,12 +1043,12 @@ function PlasmicProducts__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navigationBar", "citadel", "citadel2", "citadel3", "footer"],
+  root: ["root", "navigationBar", "citadel", "citadel2", "citadel3", "footer2"],
   navigationBar: ["navigationBar"],
   citadel: ["citadel"],
   citadel2: ["citadel2"],
   citadel3: ["citadel3"],
-  footer: ["footer"]
+  footer2: ["footer2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1047,7 +1059,7 @@ type NodeDefaultElementType = {
   citadel: "div";
   citadel2: "div";
   citadel3: "div";
-  footer: "div";
+  footer2: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1114,7 +1126,7 @@ export const PlasmicProducts = Object.assign(
     citadel: makeNodeComponent("citadel"),
     citadel2: makeNodeComponent("citadel2"),
     citadel3: makeNodeComponent("citadel3"),
-    footer: makeNodeComponent("footer"),
+    footer2: makeNodeComponent("footer2"),
 
     // Metadata about props expected for PlasmicProducts
     internalVariantProps: PlasmicProducts__VariantProps,

@@ -1284,6 +1284,7 @@
   margin-top: calc(0px + 12px) !important;
   margin-right: 0px;
   margin-left: 0px;
+  font-weight: 300;
   min-width: 0;
 }
 .button__gpbQb:global(.__wab_instance) {
@@ -1331,6 +1332,42 @@
   > img {
   margin-top: 8px;
 }
+.freeBox__iml8 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(16px + 8px) !important;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__iml8 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__iml8 > :global(.__wab_flex-container) > *,
+.freeBox__iml8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__iml8 > :global(.__wab_flex-container) > picture > img,
+.freeBox__iml8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  height: 1em;
+}
 .text__z2LpA {
   width: 100%;
   height: auto;
@@ -1339,7 +1376,6 @@
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
-  margin-top: calc(16px + 8px) !important;
   min-width: 0;
 }
 .text___1GZlS {
@@ -1351,6 +1387,7 @@
   color: #ffffff;
   font-size: 14px;
   margin-bottom: 20px;
+  font-weight: 300;
   min-width: 0;
 }
 .text__k8GlR {

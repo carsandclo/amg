@@ -681,6 +681,11 @@
           "id": "jrHOvkK-XM6e",
           "name": "Asset16SvgIcon",
           "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset16Svg.tsx"
+        },
+        {
+          "id": "OIFPFB2pQpzB",
+          "name": "Asset18SvgIcon",
+          "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset18Svg.tsx"
         }
       ],
       "images": [

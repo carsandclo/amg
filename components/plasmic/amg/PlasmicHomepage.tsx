@@ -75,6 +75,7 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: 0ZmXSPBwd1DS/
 
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: 8dWY6q-cxdHa/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: qHDe3SKps_Kk/icon
+import Asset18SvgIcon from "./icons/PlasmicIcon__Asset18Svg"; // plasmic-import: OIFPFB2pQpzB/icon
 
 createPlasmicElementProxy;
 
@@ -95,6 +96,7 @@ export type PlasmicHomepage__OverridesType = {
   usp2?: Flex__<"a"> & Partial<LinkProps>;
   usp3?: Flex__<"a"> & Partial<LinkProps>;
   footer?: Flex__<"div">;
+  svg?: Flex__<"svg">;
   navigationBar?: Flex__<typeof NavigationBar>;
 };
 
@@ -929,15 +931,28 @@ function PlasmicHomepage__RenderFunc(props: {
                 hasGap={true}
                 className={classNames(projectcss.all, sty.freeBox__p66Oe)}
               >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__z2LpA
-                  )}
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__iml8)}
                 >
-                  {"031 7997 0889"}
-                </div>
+                  <Asset18SvgIcon
+                    data-plasmic-name={"svg"}
+                    data-plasmic-override={overrides.svg}
+                    className={classNames(projectcss.all, sty.svg)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__z2LpA
+                    )}
+                  >
+                    {"031 7997 0889"}
+                  </div>
+                </Stack__>
                 <div
                   className={classNames(
                     projectcss.all,
@@ -1106,14 +1121,24 @@ const PlasmicDescendants = {
     "usp2",
     "usp3",
     "footer",
+    "svg",
     "navigationBar"
   ],
-  section: ["section", "sliderCarousel", "usp", "usp2", "usp3", "footer"],
+  section: [
+    "section",
+    "sliderCarousel",
+    "usp",
+    "usp2",
+    "usp3",
+    "footer",
+    "svg"
+  ],
   sliderCarousel: ["sliderCarousel"],
   usp: ["usp"],
   usp2: ["usp2"],
   usp3: ["usp3"],
-  footer: ["footer"],
+  footer: ["footer", "svg"],
+  svg: ["svg"],
   navigationBar: ["navigationBar"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1127,6 +1152,7 @@ type NodeDefaultElementType = {
   usp2: "a";
   usp3: "a";
   footer: "div";
+  svg: "svg";
   navigationBar: typeof NavigationBar;
 };
 
@@ -1196,6 +1222,7 @@ export const PlasmicHomepage = Object.assign(
     usp2: makeNodeComponent("usp2"),
     usp3: makeNodeComponent("usp3"),
     footer: makeNodeComponent("footer"),
+    svg: makeNodeComponent("svg"),
     navigationBar: makeNodeComponent("navigationBar"),
 
     // Metadata about props expected for PlasmicHomepage
