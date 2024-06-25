@@ -822,7 +822,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               >
                 {
-                  "PT Mulia Grand Manufacture was established in August 2015 in Boboh \u2013 Menganti area. Our company is specialized in the production of corrugated cardboard and cardboard boxes."
+                  "PT Artaniaga Megah Gemilang Manufacture was established in August 2015 in Boboh \u2013 Menganti area. Our company is specialized in the production of corrugated cardboard and cardboard boxes."
                 }
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__hpgz3)}>

@@ -177,8 +177,8 @@
   align-items: center;
   justify-content: flex-start;
   min-width: 0;
-  margin-top: calc(0px - 8px);
-  height: calc(100% + 8px);
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
 }
 .freeBox__yAnO4 > :global(.__wab_flex-container) > *,
 .freeBox__yAnO4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -188,7 +188,7 @@
   > :global(.__wab_slot)
   > picture
   > img {
-  margin-top: 8px;
+  margin-top: 4px;
 }
 .link__mjuo {
   position: relative;
@@ -199,7 +199,7 @@
   font-weight: 400;
   color: #ff7a00;
   font-family: "Rubik", sans-serif;
-  margin-top: calc(0px + 8px) !important;
+  margin-top: calc(0px + 4px) !important;
   margin-right: 0px;
   margin-left: 0px;
   min-width: 0;
@@ -212,7 +212,7 @@
   font-size: 34px;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
-  margin-top: calc(0px + 8px) !important;
+  margin-top: calc(0px + 4px) !important;
   margin-right: 0px;
   margin-left: 0px;
   min-width: 0;
@@ -1534,6 +1534,7 @@
   font-size: 14px;
   margin-bottom: 20px;
   font-weight: 300;
+  padding-top: 0px;
   min-width: 0;
 }
 .freeBox__mleYs {
