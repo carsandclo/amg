@@ -59,9 +59,9 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import Button from "../../Button"; // plasmic-import: DwYLxxR6FM2H/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
-import Button from "../../Button"; // plasmic-import: DwYLxxR6FM2H/component
 import { NavigationBar } from "@plasmicpkgs/plasmic-nav";
 
 import { useScreenVariants as useScreenVariantsuI1HQw2QRBwD } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: uI1hQw2qRBwD/globalVariant
@@ -186,6 +186,50 @@ function PlasmicHomepage__RenderFunc(props: {
             data-plasmic-override={overrides.section}
             className={classNames(projectcss.all, sty.section)}
           >
+            <div className={classNames(projectcss.all, sty.freeBox__zqqXj)}>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__m6TwS)}
+                displayHeight={"540px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/amg/images/frame60Png5.png",
+                  fullWidth: 579,
+                  fullHeight: 497,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___20ImB
+                )}
+              >
+                {"Dipacu oleh Passion, Diproses dengan Presisi"}
+              </div>
+              <Button
+                className={classNames("__wab_instance", sty.button__yPftu)}
+                color={"sand"}
+                shape={"rounded"}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__tiWXc
+                  )}
+                >
+                  {"GET QUOTATION"}
+                </div>
+              </Button>
+            </div>
             {(() => {
               const child$Props = {
                 arrows: false,
