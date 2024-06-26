@@ -75,6 +75,9 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: 0ZmXSPBwd1DS/
 
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: 8dWY6q-cxdHa/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: qHDe3SKps_Kk/icon
+import Asset19SvgIcon from "./icons/PlasmicIcon__Asset19Svg"; // plasmic-import: XZEuNf2l3nc1/icon
+import AdidasLogosvgIcon from "./icons/PlasmicIcon__AdidasLogosvg"; // plasmic-import: EuZtQOgo4dFm/icon
+import Asset20SvgIcon from "./icons/PlasmicIcon__Asset20Svg"; // plasmic-import: x63yqiqMvWN-/icon
 import Asset18SvgIcon from "./icons/PlasmicIcon__Asset18Svg"; // plasmic-import: OIFPFB2pQpzB/icon
 
 createPlasmicElementProxy;
@@ -96,7 +99,6 @@ export type PlasmicHomepage__OverridesType = {
   usp2?: Flex__<"a"> & Partial<LinkProps>;
   usp3?: Flex__<"a"> & Partial<LinkProps>;
   footer?: Flex__<"div">;
-  svg?: Flex__<"svg">;
   navigationBar?: Flex__<typeof NavigationBar>;
 };
 
@@ -442,6 +444,28 @@ function PlasmicHomepage__RenderFunc(props: {
               }}
             />
 
+            <div className={classNames(projectcss.all, sty.freeBox__jMzvU)}>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__mVdW)}
+              >
+                <Asset19SvgIcon
+                  className={classNames(projectcss.all, sty.svg__h4I0L)}
+                  role={"img"}
+                />
+
+                <AdidasLogosvgIcon
+                  className={classNames(projectcss.all, sty.svg__ewyHp)}
+                  role={"img"}
+                />
+
+                <Asset20SvgIcon
+                  className={classNames(projectcss.all, sty.svg__lVhbg)}
+                  role={"img"}
+                />
+              </Stack__>
+            </div>
             <Stack__
               as={"div"}
               hasGap={true}
@@ -937,9 +961,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.freeBox__iml8)}
                 >
                   <Asset18SvgIcon
-                    data-plasmic-name={"svg"}
-                    data-plasmic-override={overrides.svg}
-                    className={classNames(projectcss.all, sty.svg)}
+                    className={classNames(projectcss.all, sty.svg__uz8Vz)}
                     role={"img"}
                   />
 
@@ -1121,24 +1143,14 @@ const PlasmicDescendants = {
     "usp2",
     "usp3",
     "footer",
-    "svg",
     "navigationBar"
   ],
-  section: [
-    "section",
-    "sliderCarousel",
-    "usp",
-    "usp2",
-    "usp3",
-    "footer",
-    "svg"
-  ],
+  section: ["section", "sliderCarousel", "usp", "usp2", "usp3", "footer"],
   sliderCarousel: ["sliderCarousel"],
   usp: ["usp"],
   usp2: ["usp2"],
   usp3: ["usp3"],
-  footer: ["footer", "svg"],
-  svg: ["svg"],
+  footer: ["footer"],
   navigationBar: ["navigationBar"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1152,7 +1164,6 @@ type NodeDefaultElementType = {
   usp2: "a";
   usp3: "a";
   footer: "div";
-  svg: "svg";
   navigationBar: typeof NavigationBar;
 };
 
@@ -1222,7 +1233,6 @@ export const PlasmicHomepage = Object.assign(
     usp2: makeNodeComponent("usp2"),
     usp3: makeNodeComponent("usp3"),
     footer: makeNodeComponent("footer"),
-    svg: makeNodeComponent("svg"),
     navigationBar: makeNodeComponent("navigationBar"),
 
     // Metadata about props expected for PlasmicHomepage

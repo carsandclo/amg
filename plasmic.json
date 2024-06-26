@@ -686,6 +686,31 @@
           "id": "OIFPFB2pQpzB",
           "name": "Asset18SvgIcon",
           "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset18Svg.tsx"
+        },
+        {
+          "id": "XZEuNf2l3nc1",
+          "name": "Asset19SvgIcon",
+          "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset19Svg.tsx"
+        },
+        {
+          "id": "EuZtQOgo4dFm",
+          "name": "AdidasLogosvgIcon",
+          "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__AdidasLogosvg.tsx"
+        },
+        {
+          "id": "be44F5wlUvLW",
+          "name": "Asset110SvgIcon",
+          "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset110Svg.tsx"
+        },
+        {
+          "id": "x63yqiqMvWN-",
+          "name": "Asset20SvgIcon",
+          "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset20Svg.tsx"
+        },
+        {
+          "id": "1b_VSCzT2SGQ",
+          "name": "Asset21SvgIcon",
+          "moduleFilePath": "plasmic/amg/icons/PlasmicIcon__Asset21Svg.tsx"
         }
       ],
       "images": [
