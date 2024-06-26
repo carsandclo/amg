@@ -526,7 +526,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayMaxWidth={"auto"}
                       displayMinHeight={"0"}
                       displayMinWidth={"0"}
-                      displayWidth={"180px"}
+                      displayWidth={"160px"}
                       loading={"lazy"}
                       src={{
                         src: "/plasmic/amg/images/group18Png.png",
@@ -544,7 +544,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayMaxWidth={"none"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"180px"}
+                    displayWidth={"160px"}
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/amg/images/group17Png.png",
@@ -567,7 +567,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayMaxWidth={"auto"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"180px"}
+                    displayWidth={"160px"}
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/amg/images/group15Png2.png",
@@ -585,7 +585,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayMaxWidth={"none"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"180px"}
+                    displayWidth={"160px"}
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/amg/images/group16Png.png",
