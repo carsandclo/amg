@@ -445,7 +445,7 @@
   max-width: 100%;
   justify-self: center;
   min-width: 0;
-  padding: 44px 8px;
+  padding: 44px 0px;
 }
 .freeBox__iarD > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -571,21 +571,24 @@
 .img__tocf5 {
   object-fit: contain;
   max-width: auto;
-  width: 160px;
+  width: 100%;
   height: auto;
-  flex-shrink: 0;
+  min-width: 0;
 }
 .img__tocf5 > picture > img {
   object-fit: contain;
 }
-.img___0BNR {
+.link__medH7 {
   position: relative;
-  object-fit: contain;
-  width: 160px;
-  flex-shrink: 0;
+  display: flex;
+}
+.img___0BNR {
+  object-fit: fill;
+  width: 100%;
+  min-width: 0;
 }
 .img___0BNR > picture > img {
-  object-fit: contain;
+  object-fit: fill;
 }
 .freeBox__qoAqQ {
   display: flex;
@@ -614,22 +617,28 @@
   > img {
   margin-left: 8px;
 }
-.img__hBpi {
+.link__fseI {
   position: relative;
+  display: flex;
+}
+.img__hBpi {
   object-fit: contain;
   max-width: auto;
-  width: 160px;
+  width: 100%;
   height: auto;
-  flex-shrink: 0;
+  min-width: 0;
 }
 .img__hBpi > picture > img {
   object-fit: contain;
 }
-.img__pDusv {
+.link___4XSVt {
   position: relative;
+  display: flex;
+}
+.img__pDusv {
   object-fit: contain;
-  width: 160px;
-  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }
 .img__pDusv > picture > img {
   object-fit: contain;

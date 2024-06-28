@@ -526,7 +526,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayMaxWidth={"auto"}
                       displayMinHeight={"0"}
                       displayMinWidth={"0"}
-                      displayWidth={"160px"}
+                      displayWidth={"100%"}
                       loading={"lazy"}
                       src={{
                         src: "/plasmic/amg/images/group18Png.png",
@@ -536,64 +536,93 @@ function PlasmicHomepage__RenderFunc(props: {
                       }}
                     />
                   </PlasmicLink__>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img___0BNR)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"160px"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/amg/images/group17Png.png",
-                      fullWidth: 800,
-                      fullHeight: 800,
-                      aspectRatio: undefined
-                    }}
-                  />
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__medH7
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img___0BNR)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/amg/images/group17Png.png",
+                        fullWidth: 800,
+                        fullHeight: 800,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </PlasmicLink__>
                 </Stack__>
                 <Stack__
                   as={"div"}
                   hasGap={true}
                   className={classNames(projectcss.all, sty.freeBox__qoAqQ)}
                 >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__hBpi)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"auto"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"160px"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/amg/images/group15Png2.png",
-                      fullWidth: 800,
-                      fullHeight: 800,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__pDusv)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"160px"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/amg/images/group16Png.png",
-                      fullWidth: 800,
-                      fullHeight: 800,
-                      aspectRatio: undefined
-                    }}
-                  />
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__fseI
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__hBpi)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"auto"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/amg/images/group15Png2.png",
+                        fullWidth: 800,
+                        fullHeight: 800,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </PlasmicLink__>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link___4XSVt
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__pDusv)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/amg/images/group16Png.png",
+                        fullWidth: 800,
+                        fullHeight: 800,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </PlasmicLink__>
                 </Stack__>
               </Stack__>
             </Stack__>
